@@ -109,8 +109,8 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [September 22, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+### Entry 1 - [oct 7, 2026, 2:30 PM]
+**What I did**: set my student id
 
 **Details**:
 - Created GitHub account with university email
@@ -123,14 +123,58 @@
 
 **Solution**: Downloaded JDK 17 and set the PATH variable
 
-**Time spent**: 30 minutes
+**Time spent**: 1 ouers
 
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [oct10 and 5:00]
+**What I did**:implmented feture1(proceesc priority)
+
+**Details**:add priority filed
+generated random priority
+
+**Challenges**:deciding where in ready qurur
+
+**Solution**:added in inside constructor
+
+**Time spent**:1 houer
+
+---
+
+### Entry 2 - [oct10 and 6;00]
+**What I did**:implemented context switch traking mechanism (feature2)
+
+**Details**:added static counter
+Incremented it inside scheduler loop
+displayed total at end
+
+**Challenges**:choosing coorrect place queue
+
+**Solution**:added after polling thread from queue
+
+**Time spent**:50 minutes
+
+---
+
+### Entry 3 - [oct 10 and 7;30]
+**What I did**:added waiting time calculation and reporting( feature 3)
+
+**Details**:added creation time and watiting time
+calculated waiting time using System.currentTimeMillis()
+printed summary at end
+
+**Challenges**:Understanding waiting time calculation
+
+**Solution**:simplified formula based on total execution delay
+
+**Time spent**:1houe
+
+---
+
+### Entry 4 - [oct10 and 9]
+**What I did**:Revise answers for multithreading assignment
 
 **Details**:
 
@@ -138,50 +182,11 @@
 
 **Solution**:
 
-**Time spent**:
+**Time spent**:1houer
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 3 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 5 - [Date and Time]
+### Entry 5 - [oct10 and 10]
 **What I did**:
 
 **Details**:
@@ -211,13 +216,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [X 6hours]
 
-**Most challenging part**:
+**Most challenging part**:waiting time calculation and reporting( feature 3)
 
-**Most interesting learning**:
+**Most interesting learning**:Revise answers for multithreading assignment
 
-**What I would do differently next time**:
+**What I would do differently next time**:plan features earlier and test each part more thoroughly
 
 ---
 
