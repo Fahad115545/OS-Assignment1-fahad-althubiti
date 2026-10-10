@@ -235,7 +235,9 @@
 
 > 💡 **TIP:** Talk about thread creation (`Runnable`, `Thread.start()`), waiting with `Thread.join()`, simulating work with `Thread.sleep()`, and what surprised you.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:In this assignment, learned how to create and manage threads in Java using the Runnable interface. I learned how multiple threads can simulate concurrent execution even when they
+are running on the same CPU. I also learned about thread life cycle states such as New, Runnable, Running and Terminated. One important thing I learned is how Thread.start() starts execution and Thread.join()
+synchronizes. I also learned about scheduling algorithms, like Round-Robin, which give each thread an equal amount of CPU time. This assignment helped me relate the theory in the textbook to real implementation.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -243,7 +245,9 @@
 
 > 💡 **TIP:** Pick **one** specific challenge (understanding the code, one of the features, Git, the video) and say *why* it was hard.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:The hardest part was figuring out how the scheduler works with the queue and threads.
+The process of re-adding processes to the queue after partial execution was initially unclear. Correctly implementing the waiting time feature presented another difficulty since
+it necessitated an understanding of how time is tracked in actual systems. It was also challengin g to decide where to make code changes without altering the original logic. The problem became more complicated due to the interplay between threads and timing. In general, it required both conceptual knowledge** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -251,7 +255,8 @@
 
 > 💡 **TIP:** Describe your method: reading documentation, adding `System.out.println` to debug, re-reading the README, testing after each small change, asking for help.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:overcome these obstacles by closely examining the code several times and connecting it to ideas from the Operating Systems textbook. After every change, I also regularly checked the program to make sure it was accurate. I was able to concentrate on one aspect at a time by breaking the task down into smaller pieces.
+In order to comprehend program behavior, I also employed debugging strategies such printing intermediate values. My comprehension was further strengthened by watching multithreading tutorials. 1 gradually gained more self-assurance in changing the code.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -259,7 +264,7 @@
 
 > 💡 **TIP:** Use real applications you know (web browser, game, mobile app, music player) and connect each one to what you built here.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:Real-world applications like web browsers, where each tab operates as an independent thread, frequently use multithreading. Additionally, servers employ it to manage several client requests at once. Threads are used in games to concurrently handle physics, graphics, and user input. Threads are used by media players to manage user controls and play music and video. I gained a better understanding of how threads increase efficiency and responsiveness thanks to this project. Additionally, it demonstrated how scheduling guaranties equitable resource distribution.** *(5-7 sentences)*
 
 [Write your answer here.]
 
